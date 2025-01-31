@@ -19,7 +19,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "hastechinfo@gmail.com";
+        $recipient = "munish@86b.ai";
 
         // Set the email subject.
         $subject = "New contact from $name";
@@ -47,7 +47,7 @@
     } else {
         // Not a POST request, set a 403 (forbidden) response code.
         http_response_code(403);
-        echo "There was a problem with your submission, please try again.";
+        echo "There was a problem with your submission, please try again. ";
     }
 
 ?>
